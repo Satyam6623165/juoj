@@ -13,5 +13,6 @@ public class JuojApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JuojApplication.class, args);
+		System.out.println("App Started!!");
 	}
 }
