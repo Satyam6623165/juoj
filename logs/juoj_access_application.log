@@ -354,3 +354,675 @@ Consider defining a bean of type 'com.onlineJudge.juoj.dao.UserDao' in your conf
  - [INFO ] 2020-11-12T14:30:44.156Z [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
  - [INFO ] 2020-11-12T14:30:44.186Z [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 30 ms
  - [INFO ] 2020-11-12T14:30:44.412Z [http-nio-8080-exec-1] TestController - request param: satyam
+ - [INFO ] 2020-11-12T21:10:07.563Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 14064 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T21:10:07.575Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T21:10:08.870Z [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ - [INFO ] 2020-11-12T21:10:08.877Z [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ - [INFO ] 2020-11-12T21:10:08.970Z [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80ms. Found 1 JPA repository interfaces.
+ - [INFO ] 2020-11-12T21:10:10.008Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T21:10:10.020Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T21:10:10.021Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T21:10:10.022Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T21:10:10.152Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T21:10:10.153Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2506 ms
+ - [INFO ] 2020-11-12T21:10:10.548Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T21:10:10.625Z [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ - [WARN ] 2020-11-12T21:10:10.684Z [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ - [INFO ] 2020-11-12T21:10:10.726Z [task-1] Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+ - [INFO ] 2020-11-12T21:10:11.004Z [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ - [INFO ] 2020-11-12T21:10:11.219Z [task-1] HikariDataSource - HikariPool-1 - Starting...
+ - [INFO ] 2020-11-12T21:10:11.474Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T21:10:11.710Z [task-1] HikariDataSource - HikariPool-1 - Start completed.
+ - [INFO ] 2020-11-12T21:10:11.771Z [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ - [INFO ] 2020-11-12T21:10:12.746Z [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ - [INFO ] 2020-11-12T21:10:12.758Z [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ - [INFO ] 2020-11-12T21:10:12.773Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T21:10:12.801Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T21:10:12.802Z [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ - [INFO ] 2020-11-12T21:10:13.152Z [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ - [INFO ] 2020-11-12T21:10:13.162Z [main] JuojApplication - Started JuojApplication in 6.099 seconds (JVM running for 7.701)
+ - [INFO ] 2020-11-12T21:10:25.122Z [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T21:10:25.122Z [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T21:10:25.132Z [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 9 ms
+ - [INFO ] 2020-11-12T21:10:25.271Z [http-nio-8080-exec-2] CodeEvaluationController - request Object: CodeEvaluationRequest{code='#include<bits/stdc++.h>#define int int64_t using namespace std;int M = 1e9+7;signed main() {cout << "Hello World!!";return 0;}', compileLang=CPP, timeLimit=1.0}
+ - [INFO ] 2020-11-12T21:14:22.239Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 15672 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T21:14:22.251Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T21:14:23.507Z [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ - [INFO ] 2020-11-12T21:14:23.512Z [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ - [INFO ] 2020-11-12T21:14:23.624Z [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98ms. Found 1 JPA repository interfaces.
+ - [INFO ] 2020-11-12T21:14:24.717Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T21:14:24.730Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T21:14:24.731Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T21:14:24.732Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T21:14:24.891Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T21:14:24.892Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2586 ms
+ - [INFO ] 2020-11-12T21:14:25.292Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T21:14:25.370Z [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ - [WARN ] 2020-11-12T21:14:25.426Z [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ - [INFO ] 2020-11-12T21:14:25.465Z [task-1] Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+ - [INFO ] 2020-11-12T21:14:25.725Z [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ - [INFO ] 2020-11-12T21:14:25.961Z [task-1] HikariDataSource - HikariPool-1 - Starting...
+ - [INFO ] 2020-11-12T21:14:26.205Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T21:14:26.483Z [task-1] HikariDataSource - HikariPool-1 - Start completed.
+ - [INFO ] 2020-11-12T21:14:26.535Z [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ - [INFO ] 2020-11-12T21:14:27.484Z [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ - [INFO ] 2020-11-12T21:14:27.498Z [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ - [INFO ] 2020-11-12T21:14:27.517Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T21:14:27.547Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T21:14:27.549Z [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ - [INFO ] 2020-11-12T21:14:27.919Z [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ - [INFO ] 2020-11-12T21:14:27.933Z [main] JuojApplication - Started JuojApplication in 6.215 seconds (JVM running for 7.842)
+ - [INFO ] 2020-11-12T21:14:52.063Z [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T21:14:52.063Z [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T21:14:52.073Z [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 10 ms
+ - [INFO ] 2020-11-12T21:14:52.164Z [http-nio-8080-exec-2] CodeEvaluationController - request Object: CodeEvaluationRequest{code='#include<bits/stdc++.h>#define int int64_t using namespace std;int M = 1e9+7;signed main() {cout << "Hello World!!";return 0;}', compileLang=CPP, timeLimit=1.0}
+ - [INFO ] 2020-11-12T21:14:52.166Z [http-nio-8080-exec-2] CodeEvaluationServiceImpl - FilePath: C:\Users\skdav\OneDrive\Desktop\tempSol
+ - [INFO ] 2020-11-12T21:16:49.437Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 11516 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T21:16:49.451Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T21:16:50.636Z [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ - [INFO ] 2020-11-12T21:16:50.639Z [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ - [INFO ] 2020-11-12T21:16:50.720Z [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73ms. Found 1 JPA repository interfaces.
+ - [INFO ] 2020-11-12T21:16:51.665Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T21:16:51.677Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T21:16:51.678Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T21:16:51.678Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T21:16:51.805Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T21:16:51.805Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2304 ms
+ - [INFO ] 2020-11-12T21:16:52.188Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T21:16:52.266Z [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ - [WARN ] 2020-11-12T21:16:52.320Z [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ - [INFO ] 2020-11-12T21:16:52.363Z [task-1] Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+ - [INFO ] 2020-11-12T21:16:52.618Z [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ - [INFO ] 2020-11-12T21:16:52.852Z [task-1] HikariDataSource - HikariPool-1 - Starting...
+ - [INFO ] 2020-11-12T21:16:53.085Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T21:16:53.347Z [task-1] HikariDataSource - HikariPool-1 - Start completed.
+ - [INFO ] 2020-11-12T21:16:53.404Z [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ - [INFO ] 2020-11-12T21:16:54.289Z [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ - [INFO ] 2020-11-12T21:16:54.299Z [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ - [INFO ] 2020-11-12T21:16:54.315Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T21:16:54.348Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T21:16:54.350Z [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ - [INFO ] 2020-11-12T21:16:54.729Z [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ - [INFO ] 2020-11-12T21:16:54.752Z [main] JuojApplication - Started JuojApplication in 5.88 seconds (JVM running for 7.555)
+ - [INFO ] 2020-11-12T21:17:13.575Z [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T21:17:13.576Z [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T21:17:13.585Z [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 9 ms
+ - [INFO ] 2020-11-12T21:17:13.679Z [http-nio-8080-exec-2] CodeEvaluationController - request Object: CodeEvaluationRequest{code='#include<bits/stdc++.h>#define int int64_t using namespace std;int M = 1e9+7;signed main() {cout << "Hello World!!";return 0;}', compileLang=CPP, timeLimit=1.0}
+ - [INFO ] 2020-11-12T21:17:13.680Z [http-nio-8080-exec-2] CodeEvaluationServiceImpl - Here!!!!
+ - [INFO ] 2020-11-12T21:17:13.680Z [http-nio-8080-exec-2] CodeEvaluationServiceImpl - FilePath: C:\Users\skdav\OneDrive\Desktop\tempSol
+ - [INFO ] 2020-11-12T21:18:42.771Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 12336 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T21:18:42.782Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T21:18:44.053Z [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ - [INFO ] 2020-11-12T21:18:44.057Z [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ - [INFO ] 2020-11-12T21:18:44.135Z [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71ms. Found 1 JPA repository interfaces.
+ - [INFO ] 2020-11-12T21:18:45.076Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T21:18:45.089Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T21:18:45.090Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T21:18:45.090Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T21:18:45.209Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T21:18:45.209Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2357 ms
+ - [INFO ] 2020-11-12T21:18:45.596Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T21:18:45.678Z [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ - [WARN ] 2020-11-12T21:18:45.741Z [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ - [INFO ] 2020-11-12T21:18:45.775Z [task-1] Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+ - [INFO ] 2020-11-12T21:18:46.024Z [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ - [INFO ] 2020-11-12T21:18:46.248Z [task-1] HikariDataSource - HikariPool-1 - Starting...
+ - [INFO ] 2020-11-12T21:18:46.525Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T21:18:46.755Z [task-1] HikariDataSource - HikariPool-1 - Start completed.
+ - [INFO ] 2020-11-12T21:18:46.808Z [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ - [INFO ] 2020-11-12T21:18:47.674Z [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ - [INFO ] 2020-11-12T21:18:47.685Z [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ - [INFO ] 2020-11-12T21:18:47.700Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T21:18:47.728Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T21:18:47.730Z [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ - [INFO ] 2020-11-12T21:18:48.121Z [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ - [INFO ] 2020-11-12T21:18:48.133Z [main] JuojApplication - Started JuojApplication in 5.916 seconds (JVM running for 7.591)
+ - [INFO ] 2020-11-12T21:18:51.938Z [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T21:18:51.938Z [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T21:18:51.948Z [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 10 ms
+ - [INFO ] 2020-11-12T21:18:52.054Z [http-nio-8080-exec-2] CodeEvaluationController - request Object: CodeEvaluationRequest{code='#include<bits/stdc++.h>#define int int64_t using namespace std;int M = 1e9+7;signed main() {cout << "Hello World!!";return 0;}', compileLang=CPP, timeLimit=1.0}
+ - [WARN ] 2020-11-12T21:24:14.247Z [http-nio-8080-exec-5] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (''' (code 39)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (''' (code 39)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 2, column: 14]]
+ - [INFO ] 2020-11-12T21:52:00.841Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 3064 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T21:52:00.849Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T21:52:01.897Z [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ - [INFO ] 2020-11-12T21:52:01.900Z [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ - [INFO ] 2020-11-12T21:52:01.974Z [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65ms. Found 1 JPA repository interfaces.
+ - [INFO ] 2020-11-12T21:52:02.836Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T21:52:02.848Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T21:52:02.848Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T21:52:02.849Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T21:52:03.074Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T21:52:03.074Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2180 ms
+ - [INFO ] 2020-11-12T21:52:03.387Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T21:52:03.455Z [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ - [WARN ] 2020-11-12T21:52:03.493Z [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ - [INFO ] 2020-11-12T21:52:03.529Z [task-1] Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+ - [INFO ] 2020-11-12T21:52:03.733Z [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ - [INFO ] 2020-11-12T21:52:03.901Z [task-1] HikariDataSource - HikariPool-1 - Starting...
+ - [INFO ] 2020-11-12T21:52:04.138Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T21:52:04.380Z [task-1] HikariDataSource - HikariPool-1 - Start completed.
+ - [INFO ] 2020-11-12T21:52:04.430Z [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ - [INFO ] 2020-11-12T21:52:05.282Z [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ - [INFO ] 2020-11-12T21:52:05.293Z [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ - [INFO ] 2020-11-12T21:52:05.306Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T21:52:05.333Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T21:52:05.335Z [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ - [INFO ] 2020-11-12T21:52:05.656Z [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ - [INFO ] 2020-11-12T21:52:05.666Z [main] JuojApplication - Started JuojApplication in 5.313 seconds (JVM running for 6.753)
+ - [INFO ] 2020-11-12T21:52:42.693Z [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T21:52:42.693Z [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T21:52:42.701Z [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 8 ms
+ - [WARN ] 2020-11-12T21:52:42.733Z [http-nio-8080-exec-2] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Languages parameter 'compileLang' is not present]
+ - [WARN ] 2020-11-12T21:53:22.489Z [http-nio-8080-exec-4] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'double'; nested exception is java.lang.NumberFormatException: For input string: "CPP"]
+ - [INFO ] 2020-11-12T21:54:18.042Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 18476 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T21:54:18.052Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T21:54:19.127Z [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ - [INFO ] 2020-11-12T21:54:19.130Z [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ - [INFO ] 2020-11-12T21:54:19.202Z [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63ms. Found 1 JPA repository interfaces.
+ - [INFO ] 2020-11-12T21:54:20.024Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T21:54:20.040Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T21:54:20.040Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T21:54:20.040Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T21:54:20.149Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T21:54:20.149Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2052 ms
+ - [INFO ] 2020-11-12T21:54:20.488Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T21:54:20.548Z [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ - [WARN ] 2020-11-12T21:54:20.587Z [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ - [INFO ] 2020-11-12T21:54:20.631Z [task-1] Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+ - [INFO ] 2020-11-12T21:54:20.844Z [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ - [INFO ] 2020-11-12T21:54:21.006Z [task-1] HikariDataSource - HikariPool-1 - Starting...
+ - [INFO ] 2020-11-12T21:54:21.232Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T21:54:21.465Z [task-1] HikariDataSource - HikariPool-1 - Start completed.
+ - [INFO ] 2020-11-12T21:54:21.532Z [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ - [INFO ] 2020-11-12T21:54:22.287Z [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ - [INFO ] 2020-11-12T21:54:22.296Z [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ - [INFO ] 2020-11-12T21:54:22.310Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T21:54:22.336Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T21:54:22.337Z [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ - [INFO ] 2020-11-12T21:54:22.664Z [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ - [INFO ] 2020-11-12T21:54:22.676Z [main] JuojApplication - Started JuojApplication in 5.131 seconds (JVM running for 6.588)
+ - [INFO ] 2020-11-12T21:54:33.146Z [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T21:54:33.147Z [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T21:54:33.154Z [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 7 ms
+ - [INFO ] 2020-11-12T21:54:33.199Z [http-nio-8080-exec-1] CodeEvaluationController - request body: Hello
+World
+ - [INFO ] 2020-11-12T21:55:27.577Z [http-nio-8080-exec-3] CodeEvaluationController - request body: #include<bits/stdc++.h>
+#define int int64_t
+using namespace std;
+
+vector<pair<int,int>> adj[100055];
+vector<int> d(100055 , (int)1e16+7);
+
+void dijkstra(int root) {
+    d[root] = 0;
+	set<pair<int, int>> q;
+    q.insert({0, root});
+    while (!q.empty()) {
+        int v = q.begin()->second;
+        q.erase(q.begin());
+
+        for (auto edge : adj[v]) {
+            int to = edge.first;
+            int len = edge.second;
+
+            if (d[v] + len < d[to]) {
+                q.erase({d[to], to});
+                d[to] = d[v] + len;
+                q.insert({d[to], to});
+            }
+        }
+    }
+}
+
+signed main() {
+    int n;
+    cin >> n;
+    int a[n+1];
+    for(int i = 1; i <= n; i++) cin >> a[i];
+    for(int i = 1; i <= n; i++) {
+        if(i == n) adj[i].push_back({i+1 , a[i]});
+        else adj[i].push_back({i+2 , a[i]});
+        if(i == 1) continue;
+        adj[i].push_back({i-1 , a[i]});
+    }
+    dijkstra(1);
+    cout << d[n+1] << "\n";
+
+    return 0;
+}
+ - [INFO ] 2020-11-12T22:51:22.641Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 20152 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T22:51:22.651Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T22:51:23.761Z [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ - [INFO ] 2020-11-12T22:51:23.765Z [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ - [INFO ] 2020-11-12T22:51:23.838Z [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65ms. Found 1 JPA repository interfaces.
+ - [INFO ] 2020-11-12T22:51:24.725Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T22:51:24.735Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T22:51:24.736Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T22:51:24.736Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T22:51:24.853Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T22:51:24.854Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2139 ms
+ - [INFO ] 2020-11-12T22:51:25.187Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T22:51:25.263Z [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ - [WARN ] 2020-11-12T22:51:25.317Z [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ - [INFO ] 2020-11-12T22:51:25.349Z [task-1] Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+ - [INFO ] 2020-11-12T22:51:25.575Z [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ - [INFO ] 2020-11-12T22:51:25.768Z [task-1] HikariDataSource - HikariPool-1 - Starting...
+ - [INFO ] 2020-11-12T22:51:25.983Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T22:51:26.239Z [task-1] HikariDataSource - HikariPool-1 - Start completed.
+ - [INFO ] 2020-11-12T22:51:26.282Z [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ - [INFO ] 2020-11-12T22:51:27.038Z [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ - [INFO ] 2020-11-12T22:51:27.047Z [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ - [INFO ] 2020-11-12T22:51:27.061Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T22:51:27.084Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T22:51:27.085Z [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ - [INFO ] 2020-11-12T22:51:27.388Z [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ - [INFO ] 2020-11-12T22:51:27.397Z [main] JuojApplication - Started JuojApplication in 5.342 seconds (JVM running for 6.76)
+ - [INFO ] 2020-11-12T22:52:04.900Z [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T22:52:04.901Z [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T22:52:04.908Z [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 7 ms
+ - [INFO ] 2020-11-12T22:52:04.954Z [http-nio-8080-exec-2] CodeEvaluationController - request body: #include<bits/stdc++.h>
+#define int int64_t
+using namespace std;
+
+vector<pair<int,int>> adj[100055];
+vector<int> d(100055 , (int)1e16+7);
+
+void dijkstra(int root) {
+    d[root] = 0;
+	set<pair<int, int>> q;
+    q.insert({0, root});
+    while (!q.empty()) {
+        int v = q.begin()->second;
+        q.erase(q.begin());
+
+        for (auto edge : adj[v]) {
+            int to = edge.first;
+            int len = edge.second;
+
+            if (d[v] + len < d[to]) {
+                q.erase({d[to], to});
+                d[to] = d[v] + len;
+                q.insert({d[to], to});
+            }
+        }
+    }
+}
+
+signed main() {
+    int n;
+    cin >> n;
+    int a[n+1];
+    for(int i = 1; i <= n; i++) cin >> a[i];
+    for(int i = 1; i <= n; i++) {
+        if(i == n) adj[i].push_back({i+1 , a[i]});
+        else adj[i].push_back({i+2 , a[i]});
+        if(i == 1) continue;
+        adj[i].push_back({i-1 , a[i]});
+    }
+    dijkstra(1);
+    cout << d[n+1] << "\n";
+
+    return 0;
+}
+ - [INFO ] 2020-11-12T22:52:04.956Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code compilation started!!
+ - [INFO ] 2020-11-12T22:56:11.767Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 2732 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T22:56:11.775Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T22:56:12.952Z [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ - [INFO ] 2020-11-12T22:56:12.956Z [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ - [INFO ] 2020-11-12T22:56:13.046Z [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81ms. Found 1 JPA repository interfaces.
+ - [INFO ] 2020-11-12T22:56:13.957Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T22:56:13.970Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T22:56:13.971Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T22:56:13.972Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T22:56:14.104Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T22:56:14.104Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2277 ms
+ - [INFO ] 2020-11-12T22:56:14.447Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T22:56:14.506Z [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ - [WARN ] 2020-11-12T22:56:14.550Z [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ - [INFO ] 2020-11-12T22:56:14.588Z [task-1] Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+ - [INFO ] 2020-11-12T22:56:14.802Z [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ - [INFO ] 2020-11-12T22:56:14.955Z [task-1] HikariDataSource - HikariPool-1 - Starting...
+ - [INFO ] 2020-11-12T22:56:15.184Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T22:56:15.437Z [task-1] HikariDataSource - HikariPool-1 - Start completed.
+ - [INFO ] 2020-11-12T22:56:15.490Z [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ - [INFO ] 2020-11-12T22:56:16.276Z [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ - [INFO ] 2020-11-12T22:56:16.287Z [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ - [INFO ] 2020-11-12T22:56:16.300Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T22:56:16.327Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T22:56:16.328Z [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ - [INFO ] 2020-11-12T22:56:16.635Z [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ - [INFO ] 2020-11-12T22:56:16.647Z [main] JuojApplication - Started JuojApplication in 5.355 seconds (JVM running for 6.854)
+ - [INFO ] 2020-11-12T22:56:41.531Z [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T22:56:41.531Z [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T22:56:41.541Z [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 10 ms
+ - [INFO ] 2020-11-12T22:56:41.598Z [http-nio-8080-exec-2] CodeEvaluationController - request body: #include<bits/stdc++.h>
+#define int int64_t
+using namespace std;
+
+vector<pair<int,int>> adj[100055];
+vector<int> d(100055 , (int)1e16+7);
+
+void dijkstra(int root) {
+    d[root] = 0;
+	set<pair<int, int>> q;
+    q.insert({0, root});
+    while (!q.empty()) {
+        int v = q.begin()->second;
+        q.erase(q.begin());
+
+        for (auto edge : adj[v]) {
+            int to = edge.first;
+            int len = edge.second;
+
+            if (d[v] + len < d[to]) {
+                q.erase({d[to], to});
+                d[to] = d[v] + len;
+                q.insert({d[to], to});
+            }
+        }
+    }
+}
+
+signed main() {
+    int n;
+    cin >> n;
+    int a[n+1];
+    for(int i = 1; i <= n; i++) cin >> a[i];
+    for(int i = 1; i <= n; i++) {
+        if(i == n) adj[i].push_back({i+1 , a[i]});
+        else adj[i].push_back({i+2 , a[i]});
+        if(i == 1) continue;
+        adj[i].push_back({i-1 , a[i]});
+    }
+    dijkstra(1);
+    cout << d[n+1] << "\n";
+
+    return 0;
+}
+ - [INFO ] 2020-11-12T22:56:41.602Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code compilation started!!
+ - [INFO ] 2020-11-12T22:56:43.093Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code Compilation Finished with exit code: 0
+ - [INFO ] 2020-11-12T22:56:59.861Z [http-nio-8080-exec-3] CodeEvaluationController - request body: #include<bits/stdc++.h>
+#define int int64_t
+using namespace std;
+
+vector<pair<int,int>> adj[100055];
+vector<int> d(100055 , (int)1e16+7);
+
+void dijkstra(int root) {
+    d[root] = 0;
+	set<pair<int, int>> q;
+    q.insert({0, root});
+    while (!q.empty()) {
+        int v = q.begin()->second;
+        q.erase(q.begin());
+
+        for (auto edge : adj[v]) {
+            int to = edge.first;
+            int len = edge.second;
+
+            if (d[v] + len < d[to]) {
+                q.erase({d[to], to});
+                d[to] = d[v] + len;
+                q.insert({d[to], to});
+            }
+        }
+    }
+}
+
+signed main() {
+    int n;
+    cin >> n;
+    int a[n+1];
+    for(int i = 1; i <= n; i++) cin >> a[i];
+    for(int i = 1; i <= n; i++) {
+        if(i == n) adj[i].push_back({i+1 , a[i]});
+        else adj[i].push_back({i+2 , a[i]});
+        if(i == 1) continue;
+        adj[i].push_back({i-1 , a[i]});
+    }
+    dijkstra(1);
+    cout << d[n+1] << "\n";
+
+    return 0
+}
+ - [INFO ] 2020-11-12T22:56:59.863Z [http-nio-8080-exec-3] CompileAndExecuteImpl - Code compilation started!!
+ - [INFO ] 2020-11-12T22:57:00.962Z [http-nio-8080-exec-3] CompileAndExecuteImpl - Code Compilation Failed with exit code: 1
+ - [INFO ] 2020-11-12T23:30:04.359Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 13500 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T23:30:04.368Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T23:30:05.411Z [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ - [INFO ] 2020-11-12T23:30:05.414Z [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ - [INFO ] 2020-11-12T23:30:05.486Z [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64ms. Found 1 JPA repository interfaces.
+ - [INFO ] 2020-11-12T23:30:06.339Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T23:30:06.349Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T23:30:06.350Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T23:30:06.350Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T23:30:06.461Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T23:30:06.461Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2045 ms
+ - [INFO ] 2020-11-12T23:30:06.805Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T23:30:06.866Z [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ - [WARN ] 2020-11-12T23:30:06.915Z [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ - [INFO ] 2020-11-12T23:30:06.953Z [task-1] Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+ - [INFO ] 2020-11-12T23:30:07.173Z [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ - [INFO ] 2020-11-12T23:30:07.377Z [task-1] HikariDataSource - HikariPool-1 - Starting...
+ - [INFO ] 2020-11-12T23:30:07.598Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T23:30:07.798Z [task-1] HikariDataSource - HikariPool-1 - Start completed.
+ - [INFO ] 2020-11-12T23:30:07.872Z [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ - [INFO ] 2020-11-12T23:30:08.675Z [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ - [INFO ] 2020-11-12T23:30:08.686Z [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ - [INFO ] 2020-11-12T23:30:08.701Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T23:30:08.726Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T23:30:08.728Z [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ - [INFO ] 2020-11-12T23:30:09.102Z [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ - [INFO ] 2020-11-12T23:30:09.113Z [main] JuojApplication - Started JuojApplication in 5.25 seconds (JVM running for 6.726)
+ - [INFO ] 2020-11-12T23:30:29.070Z [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T23:30:29.071Z [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T23:30:29.079Z [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 8 ms
+ - [INFO ] 2020-11-12T23:30:29.134Z [http-nio-8080-exec-2] CodeEvaluationController - request body: #include<iostream>
+using namespace std;
+
+int main() {
+    int a , b;
+    cin >> a >> b;
+    cout << a+b << "\n";
+    return 0;
+}
+ - [INFO ] 2020-11-12T23:30:29.138Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code compilation started!!
+ - [INFO ] 2020-11-12T23:30:30.014Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code Compilation Finished with exit code: 0
+ - [INFO ] 2020-11-12T23:30:30.014Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code started executing!!
+ - [ERROR] 2020-11-12T23:30:30.015Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Error:  |||| Exception : class java.io.IOException | Message : Cannot run program "C:\Users\skdav\OneDrive\Desktop\tempSol": C:\Users\skdav\OneDrive\Desktop\in.txt (The system cannot find the file specified) | Cause : java.io.FileNotFoundException: C:\Users\skdav\OneDrive\Desktop\in.txt (The system cannot find the file specified) | StackTrace : java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)    java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)    com.onlineJudge.juoj.service.impl.CompileAndExecuteImpl.execute(CompileAndExecuteImpl.java:91)    com.onlineJudge.juoj.service.impl.CodeEvaluationServiceImpl.getVerdict(CodeEvaluationServiceImpl.java:62)    com.onlineJudge.juoj.controller.CodeEvaluationController.evaluateCode(CodeEvaluationController.java:32)    java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)    java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)    java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)    java.base/java.lang.reflect.Method.invoke(Method.java:566)    org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)    org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)    org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)    org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)    org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)    org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)    org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)    org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)    org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)    org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)    javax.servlet.http.HttpServlet.service(HttpServlet.java:652)    org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)    javax.servlet.http.HttpServlet.service(HttpServlet.java:733)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)    org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)    org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)    org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)    org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)    org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)    org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)    org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)    org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)    org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)    org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)    org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)    java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)    java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)    org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)    java.base/java.lang.Thread.run(Thread.java:834)    
+ - [INFO ] 2020-11-12T23:30:30.016Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code execution finished!!
+ - [INFO ] 2020-11-12T23:43:26.458Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 18788 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T23:43:26.468Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T23:43:27.515Z [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ - [INFO ] 2020-11-12T23:43:27.525Z [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ - [INFO ] 2020-11-12T23:43:27.617Z [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83ms. Found 1 JPA repository interfaces.
+ - [INFO ] 2020-11-12T23:43:28.592Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T23:43:28.605Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T23:43:28.606Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T23:43:28.606Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T23:43:28.745Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T23:43:28.752Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2237 ms
+ - [INFO ] 2020-11-12T23:43:29.108Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T23:43:29.173Z [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ - [WARN ] 2020-11-12T23:43:29.227Z [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ - [INFO ] 2020-11-12T23:43:29.269Z [task-1] Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+ - [INFO ] 2020-11-12T23:43:29.507Z [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ - [INFO ] 2020-11-12T23:43:29.687Z [task-1] HikariDataSource - HikariPool-1 - Starting...
+ - [INFO ] 2020-11-12T23:43:29.940Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T23:43:30.205Z [task-1] HikariDataSource - HikariPool-1 - Start completed.
+ - [INFO ] 2020-11-12T23:43:30.269Z [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ - [INFO ] 2020-11-12T23:43:31.094Z [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ - [INFO ] 2020-11-12T23:43:31.107Z [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ - [INFO ] 2020-11-12T23:43:31.124Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T23:43:31.152Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T23:43:31.152Z [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ - [INFO ] 2020-11-12T23:43:31.555Z [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ - [INFO ] 2020-11-12T23:43:31.567Z [main] JuojApplication - Started JuojApplication in 5.594 seconds (JVM running for 7.087)
+ - [INFO ] 2020-11-12T23:43:54.002Z [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T23:43:54.002Z [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T23:43:54.011Z [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 9 ms
+ - [INFO ] 2020-11-12T23:43:54.072Z [http-nio-8080-exec-2] CodeEvaluationController - request body: import java.util.*;
+
+public class Main {
+
+    public static void main(String args[]) {
+        int a , b;
+        Scanner in = new Scanner(System.in);
+        a = in.nextInt();
+        b = in.nextInt();
+        in.close();
+
+        System.out.println(a+b);
+    }
+}
+ - [INFO ] 2020-11-12T23:43:54.075Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code compilation started!!
+ - [INFO ] 2020-11-12T23:43:55.574Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code Compilation Failed with exit code: 1
+ - [INFO ] 2020-11-12T23:45:16.361Z [http-nio-8080-exec-5] CodeEvaluationController - request body: import java.util.*;
+
+public class tempSol {
+
+    public static void main(String args[]) {
+        int a , b;
+        Scanner in = new Scanner(System.in);
+        a = in.nextInt();
+        b = in.nextInt();
+        in.close();
+
+        System.out.println(a+b);
+    }
+}
+ - [INFO ] 2020-11-12T23:45:16.361Z [http-nio-8080-exec-5] CompileAndExecuteImpl - Code compilation started!!
+ - [INFO ] 2020-11-12T23:45:18.016Z [http-nio-8080-exec-5] CompileAndExecuteImpl - Code Compilation Finished with exit code: 0
+ - [INFO ] 2020-11-12T23:45:18.016Z [http-nio-8080-exec-5] CompileAndExecuteImpl - Code started executing!!
+ - [ERROR] 2020-11-12T23:45:18.023Z [http-nio-8080-exec-5] CompileAndExecuteImpl - Error:  |||| Exception : class java.io.IOException | Message : Cannot run program "java": C:\Users\skdav\OneDrive\Desktop\in.txt (The system cannot find the file specified) | Cause : java.io.FileNotFoundException: C:\Users\skdav\OneDrive\Desktop\in.txt (The system cannot find the file specified) | StackTrace : java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)    java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)    com.onlineJudge.juoj.service.impl.CompileAndExecuteImpl.execute(CompileAndExecuteImpl.java:91)    com.onlineJudge.juoj.service.impl.CodeEvaluationServiceImpl.getVerdict(CodeEvaluationServiceImpl.java:62)    com.onlineJudge.juoj.controller.CodeEvaluationController.evaluateCode(CodeEvaluationController.java:32)    java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)    java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)    java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)    java.base/java.lang.reflect.Method.invoke(Method.java:566)    org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)    org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)    org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)    org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)    org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)    org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)    org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)    org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)    org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)    org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)    javax.servlet.http.HttpServlet.service(HttpServlet.java:652)    org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)    javax.servlet.http.HttpServlet.service(HttpServlet.java:733)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)    org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)    org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)    org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)    org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)    org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)    org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)    org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)    org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)    org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)    org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)    org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)    java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)    java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)    org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)    java.base/java.lang.Thread.run(Thread.java:834)    
+ - [INFO ] 2020-11-12T23:45:18.024Z [http-nio-8080-exec-5] CompileAndExecuteImpl - Code execution finished!!
+ - [INFO ] 2020-11-13T00:01:50.905Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 14996 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-13T00:01:50.915Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-13T00:01:52.232Z [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ - [INFO ] 2020-11-13T00:01:52.240Z [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ - [INFO ] 2020-11-13T00:01:52.328Z [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78ms. Found 1 JPA repository interfaces.
+ - [INFO ] 2020-11-13T00:01:53.418Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-13T00:01:53.433Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-13T00:01:53.433Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-13T00:01:53.434Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-13T00:01:53.613Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-13T00:01:53.613Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2633 ms
+ - [INFO ] 2020-11-13T00:01:54.055Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-13T00:01:54.128Z [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ - [WARN ] 2020-11-13T00:01:54.193Z [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ - [INFO ] 2020-11-13T00:01:54.223Z [task-1] Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+ - [INFO ] 2020-11-13T00:01:54.485Z [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ - [INFO ] 2020-11-13T00:01:54.702Z [task-1] HikariDataSource - HikariPool-1 - Starting...
+ - [INFO ] 2020-11-13T00:01:54.955Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-13T00:01:55.261Z [task-1] HikariDataSource - HikariPool-1 - Start completed.
+ - [INFO ] 2020-11-13T00:01:55.308Z [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ - [INFO ] 2020-11-13T00:01:56.297Z [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ - [INFO ] 2020-11-13T00:01:56.313Z [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ - [INFO ] 2020-11-13T00:01:56.326Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-13T00:01:56.356Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-13T00:01:56.360Z [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ - [INFO ] 2020-11-13T00:01:56.744Z [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ - [INFO ] 2020-11-13T00:01:56.758Z [main] JuojApplication - Started JuojApplication in 6.458 seconds (JVM running for 8.188)
+ - [INFO ] 2020-11-13T00:03:03.336Z [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-13T00:03:03.338Z [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-13T00:03:03.354Z [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 14 ms
+ - [INFO ] 2020-11-13T00:03:03.458Z [http-nio-8080-exec-2] CodeEvaluationController - request body: #include<iostream>
+using namespace std;
+
+int main() {
+    int a , b;
+    cin >> a >> b;
+    cout << a+b << "\n";
+    return 0;
+}
+ - [INFO ] 2020-11-13T00:03:03.463Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code compilation started!!
+ - [INFO ] 2020-11-13T00:03:04.763Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code Compilation Finished with exit code: 0
+ - [INFO ] 2020-11-13T00:03:04.764Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code started executing!!
+ - [ERROR] 2020-11-13T00:03:04.764Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Error:  |||| Exception : class java.io.IOException | Message : Cannot run program ".\tempSol" (in directory "C:\Users\skdav\OneDrive\Desktop"): C:\Users\skdav\OneDrive\Desktop\in.txt (The system cannot find the file specified) | Cause : java.io.FileNotFoundException: C:\Users\skdav\OneDrive\Desktop\in.txt (The system cannot find the file specified) | StackTrace : java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)    java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)    com.onlineJudge.juoj.service.impl.CompileAndExecuteImpl.execute(CompileAndExecuteImpl.java:93)    com.onlineJudge.juoj.service.impl.CodeEvaluationServiceImpl.getVerdict(CodeEvaluationServiceImpl.java:62)    com.onlineJudge.juoj.controller.CodeEvaluationController.evaluateCode(CodeEvaluationController.java:32)    java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)    java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)    java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)    java.base/java.lang.reflect.Method.invoke(Method.java:566)    org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)    org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)    org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)    org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)    org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)    org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)    org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)    org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)    org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)    org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)    javax.servlet.http.HttpServlet.service(HttpServlet.java:652)    org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)    javax.servlet.http.HttpServlet.service(HttpServlet.java:733)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)    org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)    org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)    org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)    org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)    org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)    org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)    org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)    org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)    org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)    org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)    org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)    java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)    java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)    org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)    java.base/java.lang.Thread.run(Thread.java:834)    
+ - [INFO ] 2020-11-13T00:03:04.768Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code execution finished!!
+ - [INFO ] 2020-11-13T00:30:44.922Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 2356 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-13T00:30:44.930Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-13T00:30:46.002Z [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ - [INFO ] 2020-11-13T00:30:46.006Z [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ - [INFO ] 2020-11-13T00:30:46.078Z [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63ms. Found 1 JPA repository interfaces.
+ - [INFO ] 2020-11-13T00:30:46.936Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-13T00:30:46.950Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-13T00:30:46.951Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-13T00:30:46.951Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-13T00:30:47.069Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-13T00:30:47.069Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2082 ms
+ - [INFO ] 2020-11-13T00:30:47.391Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-13T00:30:47.459Z [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ - [WARN ] 2020-11-13T00:30:47.509Z [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ - [INFO ] 2020-11-13T00:30:47.545Z [task-1] Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+ - [INFO ] 2020-11-13T00:30:47.768Z [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ - [INFO ] 2020-11-13T00:30:47.948Z [task-1] HikariDataSource - HikariPool-1 - Starting...
+ - [INFO ] 2020-11-13T00:30:48.183Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-13T00:30:48.401Z [task-1] HikariDataSource - HikariPool-1 - Start completed.
+ - [INFO ] 2020-11-13T00:30:48.462Z [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ - [INFO ] 2020-11-13T00:30:49.222Z [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ - [INFO ] 2020-11-13T00:30:49.231Z [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ - [INFO ] 2020-11-13T00:30:49.246Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-13T00:30:49.271Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-13T00:30:49.272Z [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ - [INFO ] 2020-11-13T00:30:49.589Z [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ - [INFO ] 2020-11-13T00:30:49.601Z [main] JuojApplication - Started JuojApplication in 5.21 seconds (JVM running for 6.661)
+ - [INFO ] 2020-11-13T00:31:10.753Z [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-13T00:31:10.753Z [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-13T00:31:10.761Z [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 8 ms
+ - [INFO ] 2020-11-13T00:31:10.821Z [http-nio-8080-exec-2] CodeEvaluationController - request body: #include<iostream>
+using namespace std;
+
+int main() {
+    int a , b;
+    cin >> a >> b;
+    cout << a+b << "\n";
+    return 0;
+}
+ - [INFO ] 2020-11-13T00:31:10.824Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code compilation started!!
+ - [INFO ] 2020-11-13T00:31:11.699Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code Compilation Finished with exit code: 0
+ - [INFO ] 2020-11-13T00:31:11.700Z [http-nio-8080-exec-2] CompileAndExecuteImpl - Code execution finished!!
+ - [INFO ] 2020-11-13T00:34:10.330Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 15604 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-13T00:34:10.338Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-13T00:34:11.375Z [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ - [INFO ] 2020-11-13T00:34:11.379Z [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ - [INFO ] 2020-11-13T00:34:11.456Z [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69ms. Found 1 JPA repository interfaces.
+ - [INFO ] 2020-11-13T00:34:12.366Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-13T00:34:12.377Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-13T00:34:12.377Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-13T00:34:12.378Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-13T00:34:12.502Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-13T00:34:12.502Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2117 ms
+ - [INFO ] 2020-11-13T00:34:12.837Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-13T00:34:12.910Z [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ - [WARN ] 2020-11-13T00:34:12.961Z [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ - [INFO ] 2020-11-13T00:34:12.994Z [task-1] Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+ - [INFO ] 2020-11-13T00:34:13.206Z [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ - [INFO ] 2020-11-13T00:34:13.400Z [task-1] HikariDataSource - HikariPool-1 - Starting...
+ - [INFO ] 2020-11-13T00:34:13.620Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-13T00:34:13.852Z [task-1] HikariDataSource - HikariPool-1 - Start completed.
+ - [INFO ] 2020-11-13T00:34:13.923Z [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ - [INFO ] 2020-11-13T00:34:14.704Z [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ - [INFO ] 2020-11-13T00:34:14.712Z [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ - [INFO ] 2020-11-13T00:34:14.723Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-13T00:34:14.747Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-13T00:34:14.748Z [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ - [INFO ] 2020-11-13T00:34:15.080Z [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ - [INFO ] 2020-11-13T00:34:15.094Z [main] JuojApplication - Started JuojApplication in 5.304 seconds (JVM running for 6.807)
+ - [INFO ] 2020-11-13T00:34:30.344Z [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-13T00:34:30.345Z [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-13T00:34:30.353Z [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 8 ms
+ - [INFO ] 2020-11-13T00:34:30.396Z [http-nio-8080-exec-1] CodeEvaluationController - request body: #include<iostream>
+using namespace std;
+
+int main() {
+    int a , b;
+    cin >> a >> b;
+    cout << a+b << "\n";
+    return 0;
+}
+ - [INFO ] 2020-11-13T00:34:30.399Z [http-nio-8080-exec-1] CompileAndExecuteImpl - Code compilation started!!
+ - [INFO ] 2020-11-13T00:34:30.912Z [http-nio-8080-exec-1] CompileAndExecuteImpl - Code Compilation Finished with exit code: 0
+ - [ERROR] 2020-11-13T00:34:30.915Z [http-nio-8080-exec-1] CompileAndExecuteImpl - Error:  |||| Exception : class java.io.IOException | Message : Cannot run program ".\tempSol" (in directory "C:\Users\skdav\OneDrive\Desktop"): C:\Users\skdav\OneDrive\Desktop\in.txt (The system cannot find the file specified) | Cause : java.io.FileNotFoundException: C:\Users\skdav\OneDrive\Desktop\in.txt (The system cannot find the file specified) | StackTrace : java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)    java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)    com.onlineJudge.juoj.service.impl.CompileAndExecuteImpl.compile(CompileAndExecuteImpl.java:79)    com.onlineJudge.juoj.service.impl.CodeEvaluationServiceImpl.getVerdict(CodeEvaluationServiceImpl.java:60)    com.onlineJudge.juoj.controller.CodeEvaluationController.evaluateCode(CodeEvaluationController.java:32)    java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)    java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)    java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)    java.base/java.lang.reflect.Method.invoke(Method.java:566)    org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)    org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)    org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)    org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)    org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)    org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)    org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)    org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)    org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)    org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)    javax.servlet.http.HttpServlet.service(HttpServlet.java:652)    org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)    javax.servlet.http.HttpServlet.service(HttpServlet.java:733)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)    org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)    org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)    org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)    org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)    org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)    org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)    org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)    org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)    org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)    org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)    org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)    org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)    org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)    org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)    org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)    java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)    java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)    org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)    java.base/java.lang.Thread.run(Thread.java:834)    
+ - [INFO ] 2020-11-13T00:34:30.915Z [http-nio-8080-exec-1] CompileAndExecuteImpl - Code Compilation Failed with exit code: 0

@@ -25,7 +25,6 @@ public class TestController {
     private UserService userService;
 
     @GetMapping(path = Route.TEST, produces = MediaType.APPLICATION_JSON_VALUE)
-    @ResponseBody
     public GetUserResponse testApi(
             @RequestParam(value = RequestConstants.NAME) String name) {
         log.info("request param: {}", name);

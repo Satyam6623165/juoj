@@ -12,10 +12,8 @@ import java.util.Optional;
 @Service
 public class UserDbServiceImpl implements UserDbService {
 
-    private UserDao userDao;
-
     @Autowired
-    public UserDbServiceImpl(@NotNull UserDao userDao) { this.userDao = userDao; }
+    private UserDao userDao;
 
     @Override
     public Optional<User> findByName(String name) {
