@@ -58,9 +58,9 @@ public class CodeEvaluationServiceImpl implements CodeEvaluationService {
         }
 
         Verdict verdict = compileAndExecute.compile(compileLang, Constant.tempSourceFilePath);
-//        if(Verdict.CS.getValue().equals(verdict.getValue())) {
-//            verdict = compileAndExecute.execute(compileLang, Constant.inputFilePath, Constant.tempSourceFilePath, timeLimit);
-//        }
+        if(Verdict.CS.getValue().equals(verdict.getValue())) {
+            verdict = compileAndExecute.execute(compileLang, Constant.inputFilePath, Constant.tempSourceFilePath, timeLimit);
+        }
         CodeEvaluationResponse response = new CodeEvaluationResponse(verdict);
         return response;
     }

@@ -67,25 +67,26 @@ public class CompileAndExecuteImpl implements CompileAndExecute {
     public Verdict execute(Languages lang, String inputFilePath, String tempFilePath, double timeLimit) {
         log.info("Code started executing!!");
 
-        ProcessBuilder p = null;
-        if (lang.getValue().equals(Languages.JAVA.getValue())) {
-            p = new ProcessBuilder("java", "tempSol");
-        } else if (lang.getValue().equals(Languages.C.getValue())
-                || lang.getValue().equals(Languages.CPP.getValue())) {
-            p = new ProcessBuilder(".\\tempSol");
-        } else if(lang.getValue().equals(Languages.PYTHON2.getValue())){
-            p = new ProcessBuilder("python2", "tempSol.py");
-        } else if(lang.getValue().equals(Languages.PYTHON3.getValue())){
-            p = new ProcessBuilder("python3", "tempSol.py");
-        }
+        ProcessBuilder p = new ProcessBuilder();
+//        if (lang.getValue().equals(Languages.JAVA.getValue())) {
+//            p = new ProcessBuilder("java", "tempSol");
+//        } else if (lang.getValue().equals(Languages.C.getValue())
+//                || lang.getValue().equals(Languages.CPP.getValue())) {
+//            p = new ProcessBuilder(".\\tempSol");
+//        } else if(lang.getValue().equals(Languages.PYTHON2.getValue())){
+//            p = new ProcessBuilder("python2", "tempSol.py");
+//        } else if(lang.getValue().equals(Languages.PYTHON3.getValue())){
+//            p = new ProcessBuilder("python3", "tempSol.py");
+//        }
         p.directory(new File("C:\\Users\\skdav\\OneDrive\\Desktop"));
 
         File in = new File(inputFilePath);
-        p.redirectInput(in);
-        p.redirectErrorStream(true);
-
         File out = new File(Constant.outputFilePath);
-        p.redirectOutput(out);
+
+        p.command(".\\tempSol")
+                .redirectInput(in)
+                .redirectOutput(out);
+        p.redirectErrorStream(true);
 
         try {
 
