@@ -127,3 +127,48 @@ Identify and stop the process that's listening on port 8080 or configure this ap
  - [INFO ] 2020-11-11T14:39:02.006Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
  - [INFO ] 2020-11-11T14:39:02.053Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
  - [INFO ] 2020-11-11T14:39:02.100Z [main] JuojApplication - Started JuojApplication in 2.867 seconds (JVM running for 4.195)
+ - [INFO ] 2020-11-12T09:30:56.365Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 8696 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T09:30:56.381Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T09:30:58.974Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T09:30:59.003Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T09:30:59.004Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T09:30:59.005Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T09:30:59.164Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T09:30:59.164Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2705 ms
+ - [INFO ] 2020-11-12T09:30:59.633Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T09:31:00.136Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T09:31:00.168Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T09:31:00.199Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T09:31:00.214Z [main] JuojApplication - Started JuojApplication in 4.408 seconds (JVM running for 7.158)
+ - [INFO ] 2020-11-12T09:31:55.171Z [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T09:31:55.173Z [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T09:31:55.183Z [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 10 ms
+ - [INFO ] 2020-11-12T09:42:58.815Z [main] SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.onlineJudge.juoj.JuojApplicationTests], using SpringBootContextLoader
+ - [INFO ] 2020-11-12T09:42:58.815Z [main] AbstractContextLoader - Could not detect default resource locations for test class [com.onlineJudge.juoj.JuojApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+ - [INFO ] 2020-11-12T09:42:58.815Z [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.onlineJudge.juoj.JuojApplicationTests]: JuojApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ - [INFO ] 2020-11-12T09:42:58.958Z [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.onlineJudge.juoj.JuojApplication for test class com.onlineJudge.juoj.JuojApplicationTests
+ - [INFO ] 2020-11-12T09:42:59.098Z [main] SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+ - [INFO ] 2020-11-12T09:42:59.145Z [main] SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16c8b7bd, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7159139f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@65bcf7c2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3db64bd4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e106680, org.springframework.test.context.transaction.TransactionalTestExecutionListener@576c5536, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55ecbafe, org.springframework.test.context.event.EventPublishingTestExecutionListener@5a8ba37c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@37c2eacb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@232cce0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@32b9bd12, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@352e787a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@159a48a6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@15bc339]
+ - [INFO ] 2020-11-12T09:42:59.520Z [main] JuojApplicationTests - Starting JuojApplicationTests on LAPTOP-K6PFB38N with PID 19104 (started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T09:42:59.536Z [main] JuojApplicationTests - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T09:43:01.511Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T09:43:02.296Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T09:43:02.343Z [main] JuojApplicationTests - Started JuojApplicationTests in 3.139 seconds (JVM running for 4.994)
+ - [INFO ] 2020-11-12T09:43:03.149Z [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T09:44:00.457Z [main] JuojApplication - Starting JuojApplication v0.0.1-SNAPSHOT on LAPTOP-K6PFB38N with PID 19888 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\juoj.jar started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T09:44:00.472Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T09:44:03.305Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T09:44:03.368Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T09:44:03.368Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T09:44:03.368Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T09:44:03.462Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T09:44:03.462Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2912 ms
+ - [INFO ] 2020-11-12T09:44:04.105Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T09:44:04.683Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T09:44:04.714Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T09:44:04.746Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T09:44:04.777Z [main] JuojApplication - Started JuojApplication in 4.912 seconds (JVM running for 6.725)
+ - [INFO ] 2020-11-12T09:44:14.478Z [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T09:44:14.478Z [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T09:44:14.490Z [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 11 ms
+ - [INFO ] 2020-11-12T09:58:27.814Z [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

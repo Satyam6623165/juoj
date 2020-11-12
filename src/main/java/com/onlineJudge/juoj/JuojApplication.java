@@ -11,8 +11,8 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 public class JuojApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(JuojApplication.class, args);
-		System.out.println("App Started!!");
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(JuojApplication.class, args);
+    System.out.println("App Started!!");
+  }
 }
