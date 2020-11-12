@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.onlineJudge.codeforces"})
+@ComponentScan(basePackages = {"com.onlineJudge.juoj"})
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 public class JuojApplication {
 

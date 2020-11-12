@@ -172,3 +172,92 @@ Identify and stop the process that's listening on port 8080 or configure this ap
  - [INFO ] 2020-11-12T09:44:14.478Z [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
  - [INFO ] 2020-11-12T09:44:14.490Z [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 11 ms
  - [INFO ] 2020-11-12T09:58:27.814Z [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T10:15:29.147Z [main] JuojApplication - Starting JuojApplication on 197NODNB5002273 with PID 6873 (/home/shubhamkumar/Desktop/myWork/javaRepos/juoj/target/classes started by shubhamkumar in /home/shubhamkumar/Desktop/myWork/javaRepos/juoj)
+ - [INFO ] 2020-11-12T10:15:29.161Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T10:15:32.038Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T10:15:32.084Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T10:15:32.085Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T10:15:32.085Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T10:15:32.196Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T10:15:32.196Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2912 ms
+ - [INFO ] 2020-11-12T10:15:32.885Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T10:15:33.336Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T10:15:33.369Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T10:15:33.400Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T10:15:33.436Z [main] JuojApplication - Started JuojApplication in 5.075 seconds (JVM running for 7.312)
+ - [INFO ] 2020-11-12T10:17:30.149Z [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T10:17:30.149Z [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T10:17:30.157Z [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 8 ms
+ - [INFO ] 2020-11-12T10:27:02.935Z [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T10:54:45.608Z [main] JuojApplication - Starting JuojApplication on 197NODNB5002273 with PID 9249 (/home/shubhamkumar/Desktop/myWork/javaRepos/juoj/target/classes started by shubhamkumar in /home/shubhamkumar/Desktop/myWork/javaRepos/juoj)
+ - [INFO ] 2020-11-12T10:54:45.614Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T10:54:47.088Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T10:54:47.110Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T10:54:47.111Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T10:54:47.111Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T10:54:47.194Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T10:54:47.195Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1501 ms
+ - [INFO ] 2020-11-12T10:54:47.675Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T10:54:48.068Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T10:54:48.098Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T10:54:48.134Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T10:54:48.152Z [main] JuojApplication - Started JuojApplication in 2.941 seconds (JVM running for 4.35)
+ - [INFO ] 2020-11-12T10:54:51.715Z [http-nio-8080-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T10:54:51.715Z [http-nio-8080-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T10:54:51.723Z [http-nio-8080-exec-2] DispatcherServlet - Completed initialization in 8 ms
+ - [INFO ] 2020-11-12T10:54:51.823Z [http-nio-8080-exec-2] TestController - testing api with request param: shubham
+ - [INFO ] 2020-11-12T10:55:18.926Z [http-nio-8080-exec-1] TestController - testing api with request param: shubham
+ - [INFO ] 2020-11-12T10:55:26.263Z [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T10:55:32.679Z [main] JuojApplication - Starting JuojApplication on 197NODNB5002273 with PID 9349 (/home/shubhamkumar/Desktop/myWork/javaRepos/juoj/target/classes started by shubhamkumar in /home/shubhamkumar/Desktop/myWork/javaRepos/juoj)
+ - [INFO ] 2020-11-12T10:55:32.685Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T10:55:34.070Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T10:55:34.089Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T10:55:34.089Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T10:55:34.090Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T10:55:34.172Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T10:55:34.173Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1403 ms
+ - [INFO ] 2020-11-12T10:55:34.608Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T10:55:34.937Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T10:55:34.966Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T10:55:34.998Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T10:55:35.013Z [main] JuojApplication - Started JuojApplication in 2.757 seconds (JVM running for 4.169)
+ - [INFO ] 2020-11-12T10:55:42.502Z [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T10:55:42.503Z [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T10:55:42.512Z [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 9 ms
+ - [INFO ] 2020-11-12T10:55:55.322Z [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T10:56:22.381Z [main] JuojApplication - Starting JuojApplication on 197NODNB5002273 with PID 9468 (/home/shubhamkumar/Desktop/myWork/javaRepos/juoj/target/classes started by shubhamkumar in /home/shubhamkumar/Desktop/myWork/javaRepos/juoj)
+ - [INFO ] 2020-11-12T10:56:22.388Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T10:56:23.871Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T10:56:23.895Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T10:56:23.896Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T10:56:23.897Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T10:56:23.996Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T10:56:23.996Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1531 ms
+ - [INFO ] 2020-11-12T10:56:24.429Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T10:56:24.828Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T10:56:24.859Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T10:56:24.884Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T10:56:24.904Z [main] JuojApplication - Started JuojApplication in 2.9 seconds (JVM running for 4.313)
+ - [INFO ] 2020-11-12T10:56:42.774Z [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T10:56:42.774Z [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T10:56:42.782Z [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 8 ms
+ - [INFO ] 2020-11-12T10:56:42.837Z [http-nio-8080-exec-1] TestController - testing api with request param: shubham
+ - [INFO ] 2020-11-12T10:58:52.643Z [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T10:59:16.444Z [main] JuojApplication - Starting JuojApplication on 197NODNB5002273 with PID 9662 (/home/shubhamkumar/Desktop/myWork/javaRepos/juoj/target/classes started by shubhamkumar in /home/shubhamkumar/Desktop/myWork/javaRepos/juoj)
+ - [INFO ] 2020-11-12T10:59:16.451Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T10:59:17.979Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T10:59:17.998Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T10:59:17.999Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T10:59:17.999Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T10:59:18.089Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T10:59:18.089Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1555 ms
+ - [INFO ] 2020-11-12T10:59:18.524Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T10:59:18.921Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T10:59:18.953Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T10:59:18.984Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T10:59:19.005Z [main] JuojApplication - Started JuojApplication in 2.999 seconds (JVM running for 4.332)
+ - [INFO ] 2020-11-12T10:59:32.899Z [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T10:59:32.900Z [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T10:59:32.908Z [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 8 ms
+ - [INFO ] 2020-11-12T10:59:32.951Z [http-nio-8080-exec-1] TestController - testing api with request param: shubham
+ - [INFO ] 2020-11-12T11:00:17.506Z [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
