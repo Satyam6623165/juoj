@@ -1,7 +1,5 @@
 package com.onlineJudge.juoj.constant;
 
-public interface RequestConstants {
-
-    String NAME = "name";
-
+public class RequestConstants {
+    public static final String NAME = "name";
 }

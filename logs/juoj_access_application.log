@@ -261,3 +261,96 @@ Identify and stop the process that's listening on port 8080 or configure this ap
  - [INFO ] 2020-11-12T10:59:32.908Z [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 8 ms
  - [INFO ] 2020-11-12T10:59:32.951Z [http-nio-8080-exec-1] TestController - testing api with request param: shubham
  - [INFO ] 2020-11-12T11:00:17.506Z [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T14:10:31.364Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 12596 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T14:10:31.373Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T14:10:33.073Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T14:10:33.092Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T14:10:33.092Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T14:10:33.093Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T14:10:33.232Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T14:10:33.233Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1815 ms
+ - [WARN ] 2020-11-12T14:10:33.445Z [main] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userDbService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDbServiceImpl': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.onlineJudge.juoj.dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ - [INFO ] 2020-11-12T14:10:33.453Z [main] StandardService - Stopping service [Tomcat]
+ - [INFO ] 2020-11-12T14:10:33.587Z [main] ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ - [ERROR] 2020-11-12T14:10:34.063Z [main] LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDao in com.onlineJudge.juoj.service.db.impl.UserDbServiceImpl required a bean of type 'com.onlineJudge.juoj.dao.UserDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.onlineJudge.juoj.dao.UserDao' in your configuration.
+
+ - [INFO ] 2020-11-12T14:15:49.599Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 12100 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T14:15:49.607Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T14:15:51.268Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T14:15:51.286Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T14:15:51.287Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T14:15:51.287Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T14:15:51.401Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T14:15:51.401Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1742 ms
+ - [WARN ] 2020-11-12T14:15:51.585Z [main] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userDbService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDbServiceImpl' defined in file [C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes\com\onlineJudge\juoj\service\db\impl\UserDbServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.onlineJudge.juoj.dao.UserDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+ - [INFO ] 2020-11-12T14:15:51.591Z [main] StandardService - Stopping service [Tomcat]
+ - [INFO ] 2020-11-12T14:15:51.615Z [main] ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ - [ERROR] 2020-11-12T14:15:51.788Z [main] LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.onlineJudge.juoj.service.db.impl.UserDbServiceImpl required a bean of type 'com.onlineJudge.juoj.dao.UserDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.onlineJudge.juoj.dao.UserDao' in your configuration.
+
+ - [INFO ] 2020-11-12T14:29:00.114Z [main] JuojApplication - Starting JuojApplication on LAPTOP-K6PFB38N with PID 13700 (C:\Users\skdav\OneDrive\Desktop\work\juoj\target\classes started by skdav in C:\Users\skdav\OneDrive\Desktop\work\juoj)
+ - [INFO ] 2020-11-12T14:29:00.123Z [main] JuojApplication - No active profile set, falling back to default profiles: default
+ - [INFO ] 2020-11-12T14:29:01.312Z [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ - [INFO ] 2020-11-12T14:29:01.317Z [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ - [INFO ] 2020-11-12T14:29:01.545Z [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 216ms. Found 1 JPA repository interfaces.
+ - [INFO ] 2020-11-12T14:29:02.571Z [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ - [INFO ] 2020-11-12T14:29:02.582Z [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T14:29:02.583Z [main] StandardService - Starting service [Tomcat]
+ - [INFO ] 2020-11-12T14:29:02.583Z [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+ - [INFO ] 2020-11-12T14:29:02.749Z [main] [/] - Initializing Spring embedded WebApplicationContext
+ - [INFO ] 2020-11-12T14:29:02.749Z [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2576 ms
+ - [INFO ] 2020-11-12T14:29:03.363Z [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ - [INFO ] 2020-11-12T14:29:03.540Z [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ - [WARN ] 2020-11-12T14:29:03.564Z [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ - [INFO ] 2020-11-12T14:29:03.738Z [task-1] Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+ - [INFO ] 2020-11-12T14:29:04.554Z [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ - [INFO ] 2020-11-12T14:29:04.946Z [task-1] HikariDataSource - HikariPool-1 - Starting...
+ - [INFO ] 2020-11-12T14:29:05.078Z [main] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+ - [INFO ] 2020-11-12T14:29:06.547Z [task-1] HikariDataSource - HikariPool-1 - Start completed.
+ - [INFO ] 2020-11-12T14:29:06.600Z [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ - [INFO ] 2020-11-12T14:29:07.812Z [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ - [INFO ] 2020-11-12T14:29:07.830Z [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ - [INFO ] 2020-11-12T14:29:07.858Z [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ - [INFO ] 2020-11-12T14:29:07.898Z [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ - [INFO ] 2020-11-12T14:29:07.899Z [main] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ - [INFO ] 2020-11-12T14:29:08.364Z [main] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ - [INFO ] 2020-11-12T14:29:08.387Z [main] JuojApplication - Started JuojApplication in 8.857 seconds (JVM running for 10.607)
+ - [INFO ] 2020-11-12T14:30:44.151Z [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T14:30:44.156Z [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ - [INFO ] 2020-11-12T14:30:44.186Z [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 30 ms
+ - [INFO ] 2020-11-12T14:30:44.412Z [http-nio-8080-exec-1] TestController - request param: satyam
