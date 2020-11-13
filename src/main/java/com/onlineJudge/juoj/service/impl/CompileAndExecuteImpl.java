@@ -67,31 +67,28 @@ public class CompileAndExecuteImpl implements CompileAndExecute {
     public Verdict execute(Languages lang, String inputFilePath, String tempFilePath, double timeLimit) {
         log.info("Code started executing!!");
 
-        ProcessBuilder p = new ProcessBuilder();
-//        if (lang.getValue().equals(Languages.JAVA.getValue())) {
-//            p = new ProcessBuilder("java", "tempSol");
-//        } else if (lang.getValue().equals(Languages.C.getValue())
-//                || lang.getValue().equals(Languages.CPP.getValue())) {
-//            p = new ProcessBuilder(".\\tempSol");
-//        } else if(lang.getValue().equals(Languages.PYTHON2.getValue())){
-//            p = new ProcessBuilder("python2", "tempSol.py");
-//        } else if(lang.getValue().equals(Languages.PYTHON3.getValue())){
-//            p = new ProcessBuilder("python3", "tempSol.py");
-//        }
-        p.directory(new File("C:\\Users\\skdav\\OneDrive\\Desktop"));
-
+        ProcessBuilder p = null;
+        if (lang.getValue().equals(Languages.JAVA.getValue())) {
+            p = new ProcessBuilder("cmd.exe", "/c", "java", "tempSol");
+            p.directory(new File("C:\\Users\\skdav\\OneDrive\\Desktop"));
+        } else if (lang.getValue().equals(Languages.C.getValue())
+                || lang.getValue().equals(Languages.CPP.getValue())) {
+            p = new ProcessBuilder("cmd.exe", "/c", tempFilePath);
+        } else if(lang.getValue().equals(Languages.PYTHON2.getValue())){
+            p = new ProcessBuilder("cmd.exe", "/c", "python2", tempFilePath + ".py");
+        } else if(lang.getValue().equals(Languages.PYTHON3.getValue())){
+            p = new ProcessBuilder("cmd.exe", "/c", "python", tempFilePath + ".py");
+        }
         File in = new File(inputFilePath);
-        File out = new File(Constant.outputFilePath);
-
-        p.command(".\\tempSol")
-                .redirectInput(in)
-                .redirectOutput(out);
+        p.redirectInput(in);
         p.redirectErrorStream(true);
+        File out = new File(Constant.outputFilePath);
+        p.redirectOutput(out);
 
         try {
 
             Process pp = p.start();
-            if (!pp.waitFor((long)timeLimit * 1000, TimeUnit.MILLISECONDS)) {
+            if (!pp.waitFor((long)timeLimit * 5000, TimeUnit.MILLISECONDS)) {
                 return Verdict.TLE;
             }
             int exitCode = pp.exitValue();
